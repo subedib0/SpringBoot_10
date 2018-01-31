@@ -33,6 +33,16 @@ public class Course {
     @Min(3)
     private String credit;
 
+    public Course() {
+    }
+
+    public Course(String title, String instructor, String description, String credit) {
+        this.title = title;
+        this.instructor = instructor;
+        this.description = description;
+        this.credit = credit;
+    }
+
 
     public long getId() {
         return id;

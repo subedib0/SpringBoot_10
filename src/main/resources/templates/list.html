@@ -25,9 +25,10 @@
         <td th:text="${course.instructor}"> </td>
         <td th:text="${course.credit}"> </td>
         <td>
-            <a th:herf="@{/update/{id}(id=${course.id})}"> Update</a> -
-            <a th:herf="@{/detail/{id}(id=${course.id})}"> Update</a> -
-            <a th:herf="@{/delete/{id}(id=${course.id})}"> Update</a>
+
+            <a th:href="@{/update/{id}(id=${course.id})}"> Update</a> -
+            <a th:href="@{/detail/{id}(id=${course.id})}"> Details</a> -
+            <a th:href="@{/delete/{id}(id=${course.id})}"> Delete</a>
 
 
 

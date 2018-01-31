@@ -7,10 +7,10 @@
 <body>
 
 <a herf ="/">Show All Course </a> <br/>
-    Title :<span th:text= " ${coursse.title}"> </span><br/>
-    Instructor :<span th:text= " ${coursse.instructor}"> </span><br/>
-    Description:<span th:text= " ${coursse.descreption}"> </span><br/>
-    Credits:<span th:text= " ${coursse.credit}"> </span><br/>
+    Title :<span th:text= " ${course.title}"> </span><br/>
+    Instructor :<span th:text= " ${course.instructor}"> </span><br/>
+    Description:<span th:text= " ${course.description}"> </span><br/>
+    Credits:<span th:text= " ${course.credit}"> </span><br/>
 
 
 <a th: herf="@{/delete/ {id}(id=${course.id})}"> Delete this course</a>
